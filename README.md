@@ -19,64 +19,67 @@
     <img src="https://img.shields.io/badge/dotenv-green" />
 </p>
    
+<h4>Designed and coded by <a href="https://github.com/fizzaaz">FIZZA ZAIDI</a></h4>
+
 ## Description
 
-🔍 A mysql database and application backend for an e-commerce site. Built using MySQL2, Express, Sequelize and dotenv.
-  
+🔍 A mysql database and application backend for an e-commerce site. This application used Express.js API and Sequelize to interact with a MySQL database. This application displays creation of database using mySQL with models and associations. Then demonstrates the API Routes to perform RESTful CRUD operations displayed in my walk through videos.
+
+✋ [GitHub Repository](https://github.com/fizzaaz/E-commerce-Back-End)
+
 💻 Below is the gif showing the functionality of the application:
-  
+
+### 🎥 Schema and Seed the Database
 ![DB Setup and Start](./assets/demo/db.gif)
+
+### 🎥 GET ALL ROUTES
 
 ![GET All](./assets/demo/getAll.gif)
 
+### 🎥 GET SPECIFIC ROUTE
+
 ![GET All by ID](./assets/demo/getByID.gif)
 
+### 🎥 POST PUT DELETE Categories
+
 ![POST PUT DELETE Categories](./assets/demo/categoryCRUD.gif)
-  
+
+### 🎥 POST PUT DELETE Products 
+
 ![POST PUT DELETE Products](./assets/demo/productCRUD.gif)
+
+### 🎥 POST PUT DELETE Tags 
 
 ![POST PUT DELETE Tags](./assets/demo/tagCRUD.gif)
 
-🎥 The full movie file showing functionality of the application can be found in the assets directory
+
+## ✋User Requirements
   
-## User Story
+AS A manager at an internet retail company. The user wants a back end for my e-commerce website that uses the latest technologies SO THAT the user's company can compete with other e-commerce companies.
   
-```
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
-```
+
+## ✋Project Requirements
   
-## Acceptance Criteria
-  
-``` 
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete data in my database
-```
-  
+* WHEN the user add my database name, MySQL username, and MySQL password to an environment variable file THEN the user am able to connect to a database using Sequelize.
+* WHEN the user enter schema and seed commands THEN a development database is created and is seeded with test data.
+* WHEN the user enter the command to invoke the application THEN my server is started and the Sequelize models are synced to the MySQL database.
+* WHEN the user open API GET routes in Insomnia for categories, products, or tags THEN the data for each of these routes is displayed in a formatted JSON.
+* WHEN the user test API POST, PUT, and DELETE routes in Insomnia THEN the user am able to successfully create, update, and delete data in my database.
+
+
 ## Table of Contents
 - [Description](#description)
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
+- [User Requirements](#user-requirements)
+- [Project Requirements](#project-requirements)
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [Questions](#questions)
 
-## Installation
-💾   
-  
+## 💾Installation
+
 `npm init`
 
 `npm install mysql2`
@@ -85,8 +88,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 `npm install dotenv`
   
-## Usage
-💻   
+## 💻Usage
   
 Run the following command at the root of your project and answer the prompted questions:
 
@@ -102,13 +104,16 @@ Enter PW when promted
   
 `npm start`
 
-## Testing
-✏️
+
+## ✏️Testing
 
 No testing is currently set up
 
-## Contributing
-:octocat: [Joseph DeWoody](https://github.com/jpd61)
+## 👪Contribution
+
+  Email me 
 
 ## Questions
-✉️ Contact me with any questions: [email](mailto:jpd@dewoodyoil.com) , [GitHub](https://github.com/jpd61)<br />
+
+ If you have any queries feel free to contact me at ✉️ fizz.zehra14@gmail.com.
+ You can also reach me out through my Github profile at  👋[fizzaaz](https://github.com/fizzaaz/).
