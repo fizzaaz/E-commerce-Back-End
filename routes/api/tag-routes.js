@@ -85,7 +85,7 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
-  Category.destroy({
+  Tag.destroy({
     where:
     {
       id:req.params.id
@@ -93,7 +93,7 @@ router.delete('/:id', (req, res) => {
   })
   .then(tagData => {
     if (!tagData) {
-      res.status(404).json({ message: 'No tag is found with this id' });
+      res.status(404).json({ message: 'No Tag is found with this id' });
       return;
     }
     res.json(tagData);
